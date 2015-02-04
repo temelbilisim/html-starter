@@ -1,0 +1,45 @@
+#borderdebug {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    background: url("border.png") no-repeat center center;
+    z-index: 9999999999;
+    cursor: pointer;
+}
+
+#borderdebug:hover:before {
+    background: black;
+    color: #fff;
+    content: "Dış Çizgiler";
+    position: absolute;
+    left: -100px;
+    top: 5px;
+    padding: 3px;
+    font-size: 12px;
+    width: 80px;
+}
+
+#commentdebug {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    background: url("comment.png") no-repeat center center;
+    z-index: 9999999999;
+    cursor: pointer;
+}
+
+#commentdebug:hover:before {
+    background: black;
+    color: #fff;
+    content: "Yorum Yap";
+    position: absolute;
+    left: -100px;
+    top: 5px;
+    padding: 3px;
+    font-size: 12px;
+    width: 80px;
+}
